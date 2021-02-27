@@ -14,3 +14,8 @@ $economic->customer->getAll();
 $economic->customer->getCollection();
 $economic->customer->post($someData);
 ```
+
+Invoice also has an helper method to create a draft:
+```php
+$economic->invoice->createDraft($customerNumber, $layoutNumber, $products);
+```
