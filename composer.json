@@ -1,0 +1,13 @@
+{
+    'name': 'noeka/economic',
+    'authors': [
+        {
+            'name': 'Mathias N. Kastrup',
+            'email': 'mathias@noeka.dk'
+        }
+    ],
+    'autoload': {
+        'psr-4': {'Noeka\\': 'src/'}
+    },
+    'require': {}
+}
